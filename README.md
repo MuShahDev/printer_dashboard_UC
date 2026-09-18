@@ -6,13 +6,6 @@ El repositorio no incluye datos de impresoras ni direcciones IP de las sedes. En
 
 Desde **Administrar** se puede cambiar el título del panel para identificar cada sede. Al registrar una impresora basta con ingresar su IPv4: el nombre se consulta por SNMP y puede editarse antes de guardar.
 
-## Ejecutar
-
-```powershell
-go run .
-```
-
-Abrir `http://localhost:8080`.
 
 ## Instalar en Windows 11
 
@@ -36,5 +29,5 @@ go run .
 El ejecutable puede mostrar directamente en CMD la identificación y la tabla SNMP de bandejas:
 
 ```cmd
-PrinterDashboard.exe --snmp-bandejas 10.120.40.12
+PrinterDashboard.exe --snmp-bandejas IP-DE-LA-IMPRESORA
 ```
